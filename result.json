@@ -1,0 +1,94 @@
+Search results for Simpang Lima Gumul
+
+{
+	"status": "OK",
+	"results": [
+		{
+			"formatted_address": "Tugurejo, Kec. Ngasem, Kediri, Jawa Timur 64182, Indonesia",
+			"types": [
+				"establishment",
+				"point_of_interest",
+				"tourist_attraction"
+			],
+			"geometry": {
+				"location_type": "GEOMETRIC_CENTER",
+				"location": {
+					"lng": 112.0623289,
+					"lat": -7.815697799999999
+				},
+				"viewport": {
+					"northeast": {
+						"lat": -7.814348819708497,
+						"lng": 112.0636778802915
+					},
+					"southwest": {
+						"lng": 112.0609799197085,
+						"lat": -7.817046780291501
+					}
+				}
+			},
+			"place_id": "ChIJMdqcXxdXeC4Rs0rkYwVhIzE",
+			"plus_code": {
+				"compound_code": "53M6+PW Tugurejo, Kediri, Jawa Timur, Indonesia",
+				"global_code": "6P4J53M6+PW"
+			},
+			"address_components": [
+				{
+					"short_name": "Tugurejo",
+					"types": [
+						"administrative_area_level_5",
+						"political"
+					],
+					"long_name": "Tugurejo"
+				},
+				{
+					"long_name": "Tugurejo",
+					"types": [
+						"administrative_area_level_4",
+						"political"
+					],
+					"short_name": "Tugurejo"
+				},
+				{
+					"short_name": "Kec. Ngasem",
+					"long_name": "Kecamatan Ngasem",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kediri",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					],
+					"short_name": "Kediri"
+				},
+				{
+					"long_name": "Jawa Timur",
+					"short_name": "Jawa Timur",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"types": [
+						"country",
+						"political"
+					],
+					"short_name": "ID",
+					"long_name": "Indonesia"
+				},
+				{
+					"long_name": "64182",
+					"short_name": "64182",
+					"types": [
+						"postal_code"
+					]
+				}
+			]
+		}
+	]
+}
