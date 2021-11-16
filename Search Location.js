@@ -5,7 +5,6 @@
       var geocoder = Maps.newGeocoder().setLanguage('en');
       var response = geocoder.reverseGeocode(cocok[1], cocok[2]);
 
-      // periksa hasilnya, jika tidak ketemu keluarkan pesan error
       if (response.status !== 'OK') return tg.sendMsg(msg, '⚠️ <a href="tg://user?id=2085338522">Location not found</a>.', 'HTML', false, msg.message_id);
 
       var Lokasi = response.results[0];
