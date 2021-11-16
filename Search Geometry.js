@@ -32,4 +32,5 @@ var pola = /^[\/!](geo) ([\w\s,\.]{3,})/i;
       tg.editMessageText(msg.chat.id, newMsg.message_id, newMsg.inline_message_id, pHasil, 'html', true)
       tg.sendMsgKeyboardInline(msg, psn, keyb, 'HTML');
       return;
+        
     }
