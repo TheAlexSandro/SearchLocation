@@ -1,3 +1,5 @@
+var user = new telegram.user()
+
 if (cocok = /^([\/]setaddress )/i.exec(msg.text)){
   var pesanWelcome = msg.text.replace(cocok[1],'');
 
@@ -15,5 +17,6 @@ if (cocok = /^([\/]setaddress )/i.exec(msg.text)){
 
     tg.sendMsg(msg, '⛔️ ERROR: '+pesanError, false, false, msg.message_id);
   }
+  
   return;
 }
