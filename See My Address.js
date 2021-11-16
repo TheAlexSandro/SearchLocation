@@ -3,7 +3,6 @@ if (pola.exec(msg.text) ){
 
   var pesanWelcome = user.getValue('pesanWelcome_'+msg.chat.id);
   
-  // jika kosong variablenya
   if (!pesanWelcome) return tg.sendMsg(msg, "⚠️ You haven't saved the address at all.\nTo save use the following format:\n/setaddress your address", false, false, msg.message_id);
   
   // If it doesn't exist/hasn't set the address
