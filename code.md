@@ -1,8 +1,5 @@
-"<b>SeachLocation</b>"
- "How do create an order to find a location in javaScript?"
- 
- var pola = /^[\/](?:lok|loc) (-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i;
-    if (cocok = pola.exec(msg.text)) {
+    var pola = /^[\/](?:lok|loc) (-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)/i;
+     if (cocok = pola.exec(msg.text)) {
       var cck = msg.text.replace(cocok[1], cocok[2]);
 
       var geocoder = Maps.newGeocoder().setLanguage('en');
