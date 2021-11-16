@@ -6,4 +6,5 @@
 // function for callback
 function prosesCallback(cb) {
   var msg = cb.message;
+  var user = new telegram.user()
 }
