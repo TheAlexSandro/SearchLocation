@@ -38,5 +38,4 @@
       tg.sendVenue(msg.chat.id, latitude, longitude, false, false, false)
       tg.sendMsgKeyboardInline(msg, esan, keyb, 'html')
       return;
-
     }
