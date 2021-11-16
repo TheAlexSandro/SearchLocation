@@ -15,6 +15,5 @@ if (cocok = /^([\/]setaddress )/i.exec(msg.text)){
 
     tg.sendMsg(msg, '⛔️ ERROR: '+pesanError, false, false, msg.message_id);
   }
-
   return;
 }
