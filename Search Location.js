@@ -1,4 +1,6 @@
-var pola = /^[\/!](lok|loc) ([\w\s,\.]{3,})/i;
+var user = new telegram.user()
+
+ var pola = /^[\/!](lok|loc) ([\w\s,\.]{3,})/i;
     if (cocok = pola.exec(msg.text)) {
       var cck = msg.text.replace(cocok[1], '');
       
