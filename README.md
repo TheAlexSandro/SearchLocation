@@ -1,4 +1,4 @@
-<h2>This is a Source Code for search Location</h2>
+<h2>This is a Source Code search Location</h2>
 
 <pre>Use JavaScript languages</pre>
 
