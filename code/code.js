@@ -12,6 +12,11 @@ function doPost(e) {
 }
 
 function prosesPesan(update) {
+
+  if (update.callback_query) {    
+    return prosesCallback(update.callback_query)
+  }
+  
   if (update.message) {
 
     var msg = update.message;
@@ -143,4 +148,7 @@ if (pola.exec(msg.text) ){
 
   return tg.sendMsgKeyboardInline(msg, psn, keyb, 'html')
 }
+
+    }
+  }
 }
