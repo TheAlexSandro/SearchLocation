@@ -1,15 +1,17 @@
 if (/svAddres$/i.exec(cb.data)) {
-    var gtpsn = user.getValue('esan_' + msg.chat.id)
-    var gtlink = user.getValue('link_' + msg.chat.id)
-    var gttraf = user.getValue('traf_' + msg.chat.id)
+    var gtpsn = user.getValue('esan_' + chatID)
+    var gtlink = user.getValue('link_' + chatID)
+    var gtddg = user.getValue('ddg_' + chatID)
+    var gtwaze = user.getValue('waze_' + chatID)
+    var gthere = user.getValue('here_' + chatID)
 
-    user.setValue('pesanWelcome_' + msg.chat.id, gtpsn)
+    user.setValue('pesanWelcome_' + chatID, gtpsn)
 
     var pesan = "" + gtpsn
     var keyb = []
 
     keyb[0] = [
-      tg.button.url('🌎 Open With Google Maps', '' + gtlink)
+      tg.button.text('🌎 Open With...', 'open_with')
     ]
     keyb[1] = [
       tg.button.url('🚦 View Traffic Conditions', '' + gttraf)
